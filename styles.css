@@ -1,0 +1,72 @@
+:root {
+    --card-color: rgba(119, 91, 196, 0.555);
+    --card-header-color: crimson;
+    --card-body-color: rgb(40, 4, 124)
+    --card-footer-color: indigo;
+}
+
+.card-python {
+    margin: 0 auto;
+    background: var(--card-color);
+    color: rgb(69, 24, 95);
+    width: 400px;
+    padding: 20px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.377);
+    border-radius: 20px 20px 0px 0px; 
+    overflow: hidden;
+}
+
+.card-html {
+    margin: 0 auto;
+    background: rgba(199, 122, 33, 0.377);
+    color: rgb(69, 24, 95);
+    width: 400px;
+    padding: 20px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.377);
+    border-radius: 0px 0px 0px 0px; 
+    overflow: hidden;
+}
+
+.card-css {
+    margin: 0 auto;
+    background: rgba(33, 91, 199, 0.377);
+    color: rgb(69, 24, 95);
+    width: 400px;
+    padding: 20px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.377);
+    border-radius: 0px 0px 0px 0px; 
+    overflow: hidden;
+}
+
+.card-js {
+    margin: 0 auto;
+    background: rgba(163, 199, 33, 0.377);
+    color: rgb(69, 24, 95);
+    width: 400px;
+    padding: 20px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.377);
+    border-radius: 0px 0px 0px 0px; 
+}
+
+.card-ts {
+    margin: 0 auto;
+    background: rgba(33, 138, 199, 0.377);
+    color: rgb(69, 24, 95);
+    width: 400px;
+    padding: 20px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.377);
+    border-radius: 0px 0px 20px 20px; 
+}
+
+section {
+    text-align: justify;
+    margin: auto;
+    font-family: sans-serif;
+    background-color: rgb(126, 164, 165);
+}
+
+section h1 {
+    text-align: center;
+    color: rgb(56, 48, 45);
+}
+
